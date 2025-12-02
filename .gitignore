@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Production builds
+frontend/build/
+backend/safepass.db
+backend/temp/
+
+# Go
+backend/safepass
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Python
+ml_service/__pycache__/
+ml_service/*.pyc
+ml_service/.pytest_cache/
+ml_service/venv/
+ml_service/.venv/
+*.py[cod]
+*$py.class
+
+# ML Models (слишком большие для Git)
+ml_model/runs/
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
